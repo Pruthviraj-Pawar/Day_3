@@ -1,0 +1,10 @@
+a = int(input("Enter a number"))
+
+if(a%7==0 and a%11==0):
+    print("Divisible by both")
+elif(a%7==0):
+    print("Divisible by 7")
+elif(a%11==0):
+    print("Divisible by 11")
+else:
+    print ("Not divisible by 7 or 11")
